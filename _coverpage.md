@@ -4,7 +4,7 @@
 <h1 align="center">Java知识分享</h1>
 
 
-[开始阅读](#Java知识学习)
+[开始阅读](#docsify-demo)
 
 
 
