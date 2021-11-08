@@ -4,7 +4,7 @@
 <h1 align="center">Java 知识分享</h1>
 
 [GitHub](https://github.com/WilleonBro/javadata)
-[开始阅读](#java)
+[开始阅读](#javadata)
 
 
 
