@@ -66,8 +66,6 @@ public interface RandomAccess {
 
 ### 2.2.4 说一说 ArrayList 的扩容机制吧
 
-详见笔主的这篇文章:[通过源码一步一步分析ArrayList 扩容机制](https://github.com/Snailclimb/JavaGuide/blob/master/docs/java/collection/ArrayList-Grow.md)
-
 ### 2.2.5 HashMap 和 Hashtable 的区别
 
 1. **线程是否安全：** HashMap 是非线程安全的，HashTable 是线程安全的；HashTable 内部的方法基本都经过`synchronized` 修饰。（如果你要保证线程安全的话就使用 ConcurrentHashMap 吧！）；
@@ -141,10 +139,6 @@ public interface RandomAccess {
 1. ==是判断两个变量或实例是不是指向同一个内存空间 equals是判断两个变量或实例所指向的内存空间的值是不是相同
 2. ==是指对内存地址进行比较 equals()是对字符串的内容进行比较
 3. ==指引用是否相同 equals()指的是值是否相同
-
-> 作者：Guide哥。
->
-> **介绍:** Github 70k Star 项目  **[JavaGuide](https://github.com/Snailclimb/JavaGuide)**（公众号同名） 作者。每周都会在公众号更新一些自己原创干货。公众号后台回复“1”领取Java工程师必备学习资料+面试突击pdf。
 
 ### 2.2.8 HashMap的底层实现
 
@@ -419,10 +413,3 @@ Output：
 
 
 如果大家想要实时关注我更新的文章以及分享的干货的话，可以关注我的公众号。
-
-**《JavaGuide 面试突击版》 :** 由本文档衍生的专为面试而生的《JavaGuide 面试突击版》 版本[公众号](#公众号)后台回复 **"Java 面试突击"** 即可免费领取！
-
-**Java 工程师必备学习资源:** 一些 Java 工程师常用学习资源公众号后台回复关键字 **“1”** 即可免费无套路获取。
-
-![我的公众号](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-6/167598cd2e17b8ec.png)
-
